@@ -1794,8 +1794,12 @@ li.sub-menu-item.nav-item-has-children i {
 *                     07. Project Section  
 *==============================================================
 */
+
+.potfolio{
+  margin-top: 90px;
+}
 .project-section ul {
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 }
 
 .project-section ul li {
@@ -1887,6 +1891,7 @@ li.sub-menu-item.nav-item-has-children i {
 .project-section .view-all-ptflo-btn-wrapper .btn:focus {
   background-color: var(--clr-primary);
 }
+
 
 @media (min-width: 1500px) {
   .project-section .lg-container {
